@@ -4,7 +4,7 @@
 
 ## 📌 Proje Hakkında | About the Project
 **🇹🇷 Türkçe**
----
+
 -Bu proje, silahlı insansız hava aracı (SİHA) sistemleri için görüntü işleme tabanlı nesne tespiti amacıyla geliştirilmiştir. Projede iki farklı senaryo desteklenmektedir:
 
 **Gerçek Zamanlı Tespit:** Canlı kamera görüntüsü üzerinden anlık nesne tespiti. 
@@ -73,11 +73,44 @@ pip install tensorflow opencv-python numpy
 
 -Run the script depending on your use case:
 ```bash
-python detect_video.py
+python video_detection.py
 ```
 
 or
 ```bash
-python detect_realtime.py
+python realtime_detection.py
 ```
----
+
+## 📊 Çalışma Mantığı | How It Works
+**🇹🇷 Türkçe**
+
+-Kamera veya video kaynağından kareler alınır.
+
+-Kareler modele uygun şekilde yeniden boyutlandırılır.
+
+-Model çalıştırılır ve sınıf skorları + sınırlayıcı kutular elde edilir.
+
+-NMS uygulanarak en doğru tespitler seçilir.
+
+-Sadece dost unsur ve düşman unsur sınıfları ekrana çizilir.
+
+**🇬🇧 English**
+
+-Frames are captured from camera or video input.
+
+-Frames are resized to match the model’s input.
+
+-The model runs and returns class scores + bounding boxes.
+
+-NMS selects the most accurate detections.
+
+-Only friendly unit and enemy unit classes are drawn on screen.
+
+##📌 Notlar | Notes
+
+-Türkçe etiketlerde dost unsur → Friendly Unit, düşman unsur → Enemy Unit olarak çevrilmiştir.
+
+-desired_classes listesine yeni sınıf indeksleri eklenerek farklı nesneler de tespit edilebilir.
+
+-Bu proje, SİHA sistemleri için nesne tespit altyapısı geliştirmek amacıyla hazırlanmıştır.
+
