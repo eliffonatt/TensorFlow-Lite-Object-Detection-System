@@ -42,3 +42,41 @@
 -Non-Maximum Suppression (NMS) for more accurate results
 
 -Bounding boxes and labeling only for selected classes
+
+# ⚙️ Kurulum | Installation
+**🇹🇷 Türkçe**
+
+-Gerekli bağımlılıkları yükleyin:
+
+pip install tensorflow opencv-python numpy
+
+
+-Model dosyalarını (.tflite, labelmap.txt) ve test videosunu proje dizinine yerleştirin.
+
+-video_detection.py veya realtime_detection.py dosyalarından ihtiyacınıza uygun olanı çalıştırın:
+
+python video_detection.py
+
+
+veya
+
+python realtime_detection.py
+
+**🇬🇧 English**
+
+-Install the required dependencies:
+
+pip install tensorflow opencv-python numpy
+
+
+-Place the model files (.tflite, labelmap.txt) and the test video in the project directory.
+
+-Run the script depending on your use case:
+
+python detect_video.py
+
+
+or
+
+python detect_realtime.py
+
