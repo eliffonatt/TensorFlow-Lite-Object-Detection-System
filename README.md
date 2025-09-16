@@ -114,3 +114,6 @@ python realtime_detection.py
 
 -Bu proje, SİHA sistemleri için nesne tespit altyapısı geliştirmek amacıyla hazırlanmıştır.
 
+<img width="1269" height="739" alt="Ekran görüntüsü 2025-09-16 225153" src="https://github.com/user-attachments/assets/c5ac1178-dc25-425d-9b7b-9d0448a2a993" />
+
+
