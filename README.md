@@ -4,7 +4,7 @@
 
 ## 📌 Proje Hakkında | About the Project
 **🇹🇷 Türkçe**
-
+---
 -Bu proje, silahlı insansız hava aracı (SİHA) sistemleri için görüntü işleme tabanlı nesne tespiti amacıyla geliştirilmiştir. Projede iki farklı senaryo desteklenmektedir:
 
 **Gerçek Zamanlı Tespit:** Canlı kamera görüntüsü üzerinden anlık nesne tespiti. 
@@ -47,36 +47,37 @@
 **🇹🇷 Türkçe**
 
 -Gerekli bağımlılıkları yükleyin:
-
+```bash
 pip install tensorflow opencv-python numpy
-
+```
 
 -Model dosyalarını (.tflite, labelmap.txt) ve test videosunu proje dizinine yerleştirin.
 
 -video_detection.py veya realtime_detection.py dosyalarından ihtiyacınıza uygun olanı çalıştırın:
-
+```bash
 python video_detection.py
-
+```
 
 veya
-
+```bash
 python realtime_detection.py
-
+```
 **🇬🇧 English**
 
 -Install the required dependencies:
-
+```bash
 pip install tensorflow opencv-python numpy
-
+```
 
 -Place the model files (.tflite, labelmap.txt) and the test video in the project directory.
 
 -Run the script depending on your use case:
-
+```bash
 python detect_video.py
-
+```
 
 or
-
+```bash
 python detect_realtime.py
-
+```
+---
