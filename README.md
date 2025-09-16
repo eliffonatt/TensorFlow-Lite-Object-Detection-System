@@ -2,14 +2,14 @@
 
 # (TensorFlow Lite Object Detection System)
 
-📌 # Proje Hakkında | About the Project
-# 🇹🇷 Türkçe
+# 📌 Proje Hakkında | About the Project
+** 🇹🇷 Türkçe **
 
 -Bu proje, silahlı insansız hava aracı (SİHA) sistemleri için görüntü işleme tabanlı nesne tespiti amacıyla geliştirilmiştir. Projede iki farklı senaryo desteklenmektedir:
 
-** Gerçek Zamanlı Tespit: Canlı kamera görüntüsü üzerinden anlık nesne tespiti. 
+** Gerçek Zamanlı Tespit: ** Canlı kamera görüntüsü üzerinden anlık nesne tespiti. 
 
-** Video Dosyası Üzerinden Tespit: Kayıtlı video üzerinde nesne tespiti.
+** Video Dosyası Üzerinden Tespit: ** Kayıtlı video üzerinde nesne tespiti.
 
 -Model, yalnızca belirlenen sınıfları (dost unsur ve düşman unsur) algılar ve diğer nesneleri görmezden gelir.
 
@@ -23,13 +23,13 @@
 
 -Yalnızca seçilen sınıflar için kutulama ve etiketleme
 
-# 🇬🇧 English
+** 🇬🇧 English **
 
 -This project is developed for image processing-based object detection in Unmanned Combat Aerial Vehicles (UCAVs). It supports two different scenarios:
 
-** Real-Time Detection: Object detection from live camera input.
+** Real-Time Detection: ** Object detection from live camera input.
 
-** Video File Detection: Object detection on pre-recorded video files.
+** Video File Detection: ** Object detection on pre-recorded video files.
 
 -The model detects only specific classes (friendly unit and enemy unit) and ignores all other objects.
 
